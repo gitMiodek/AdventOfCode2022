@@ -1,7 +1,7 @@
 # In how many assignment pairs does one range fully contain the other?
 
 
-def camp_cleanup(filepath: str, second_task=False):
+def camp_cleanup(filepath: str, second_task=False) -> int:
     with open(filepath, 'r') as f:
         if not second_task:
             score = 0
